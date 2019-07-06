@@ -1,4 +1,4 @@
-// merge from master branch
+// some changes
 const { app, BrowserWindow, Menu, MenuItem } = require('electron');
 // const notifier = require('node-notifier');
 const path = require("path");
