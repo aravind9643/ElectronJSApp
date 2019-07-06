@@ -1,4 +1,5 @@
 // Changes in dev branch
+// another change in dev branch
 const { app, BrowserWindow, Menu, MenuItem } = require('electron');
 // const notifier = require('node-notifier');
 const path = require("path");
