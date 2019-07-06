@@ -1,0 +1,23 @@
+.content-body {
+    margin: 55px 5px 0 505px;
+    transition: .2s all;
+    overflow: auto;
+    .content {
+        .c-box {
+            border: 0;
+            padding: 0;
+            min-height: calc(100vh - 55px);
+            min-height:-moz-calc(100vh - 55px);
+            min-height:-webkit-calc(100vh - 55px);
+            .card-body {
+                padding: 0;
+                overflow-y: auto;
+            }
+        }
+    }
+}
+
+.expanded {
+    padding: 0;
+    margin: 55px 5px 0 300px;
+}

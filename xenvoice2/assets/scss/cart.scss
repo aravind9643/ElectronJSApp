@@ -1,0 +1,208 @@
+/* cart customized styles */
+
+.cart-table {
+  thead tr{
+    th{
+      border-bottom: 1px solid $light-gray-7;
+      background: $primary;
+    }
+  }
+  tbody{
+    .cart-item{
+      .cart-item-delete{
+        background: transparent;
+        margin-right: 3px;
+      }
+    }
+  }
+}
+
+.cart-header {
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cart-table tr:hover td {
+    background: $gray-var1;
+}
+.cart-checkout-btn{
+  background: $primary;
+}
+// .cart-table tr th {
+//     border: none !important;
+//     padding: 8px !important;
+//     text-align: left;
+// }
+
+// .cart-item > td {
+//     border: none !important;
+//     border-bottom: 1px solid #dddddd !important;
+//     padding: 8px !important;
+// }
+
+.cart-footer {
+    padding: 10px 15px 0 !important;
+    margin: 0 !important;
+    min-height: 40px;
+    /*max-height: 60px;*/
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.cart-checkout {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+}
+.cart-minimize{
+    background: transparent;
+    outline: none;
+    border: none;
+    border-radius: 100%;
+    padding: 0 6.5px;
+    &:hover{
+      background: $gray-var2;
+    }
+}
+.cart-collapsed-view{
+    display: none !important;
+}
+
+// call
+.xen-calling-alert {
+    position: absolute;
+    background: #1d1d1d;
+    border: 1px solid #dcdbdb;
+    width: 400px;
+    min-height: 130px;
+    right: 10px;
+    z-index: 9999;
+    padding: 0;
+    top: 10px;
+    border-radius: 6px !important;
+  }
+
+  .xen-body {
+    width: 100%;
+    padding: 0;
+    min-height: 75px;
+    border-radius: 10px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+    .xen-body h4 {
+      font-size: 16px;
+      margin: 0 0 5px 0;
+      overflow: hidden;
+      -o-text-overflow: ellipsis;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      width: 90%;
+      /*    text-transform: capitalize;*/
+    }
+
+    .xen-body .apn-nav-pro {
+      width: 50px;
+      height: 50px;
+      margin: 0 10px 0 15px;
+      border-radius: 50% !important;
+      /*overflow: hidden;*/
+    }
+
+    .xen-body .apn-nav-name {
+      width: initial;
+      margin: 0;
+      width: 115px;
+      color: #fff;
+    }
+
+    .xen-body h5 {
+      font-weight: normal;
+      font-size: 14px;
+      color: #fff !important;
+      color: #b9b9b9 !important;
+      margin: 0 0 5px 0;
+    }
+
+  .xen-footer {
+    margin: 0;
+    background: none;
+    position: relative;
+    width: 80%;
+    float: right;
+  }
+
+    .xen-footer button {
+      float: left;
+      background: none;
+      width: 46%;
+      border: 0;
+      font-size: 14px;
+      display: block;
+      border-radius: 50px !important;
+      text-align: center;
+      height: 36px;
+      line-height: 23px;
+      color: #fff;
+      outline: none;
+      padding-left: 15px;
+    }
+
+      .xen-footer button:hover {
+        color: #fff;
+      }
+
+      .xen-footer button.btn-ans {
+        background: #3db44f;
+        margin-right: 10px;
+        i {
+          transform: rotate(90deg);
+        }
+      }
+
+      .xen-footer button.btn-dec {
+        background: #e43421;
+      }
+
+        .xen-footer button.btn-dec i {
+          // -webkit-transform: rotate(138deg);
+          // -ms-transform: rotate(138deg);
+          // transform: rotate(138deg);
+        }
+
+        .xen-footer button.btn-dec i {
+          top: 0;
+          transform: rotate(225deg);
+        }
+
+      .xen-footer button i {
+        float: left;
+        position: relative;
+        line-height: 28px;
+      }
+
+  .apn-nav-name.arrow-to:before {
+    font-family: "Font Awesome 5 pro";
+    content: "\f061";
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;
+    position: absolute;
+    left: 56%;
+    top: 32px;
+    font-size: 12px;
+  }
+
+  .sms_alert_text p {
+    color: #ffffff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }

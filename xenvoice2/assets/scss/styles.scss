@@ -1,0 +1,33 @@
+//normalize
+@import 'partials/normalize';
+//variables
+@import 'partials/variables';
+// theme
+@import 'partials/theme';
+// animation
+@import 'partials/animation';
+// states
+@import 'partials/states';
+// typography
+@import 'partials/typography';
+// mixings
+@import 'partials/mixings';
+// base
+@import 'base';
+// structure
+@import 'structure';
+
+// font awesome
+//cart
+@import 'cart';
+@import "../fonts/fa/solid";
+@import "../fonts/fa/light";
+@import "../fonts/fa/regular";
+@import "../fonts/fa/brands";
+@import "../fonts/fa/fontawesome";
+//bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+.toast-bootstrap-compatibility-fix {
+    opacity:1;
+  }

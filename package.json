@@ -1,0 +1,33 @@
+{
+  "name": "xendesk",
+  "version": "1.0.0",
+  "description": "XendDesk VoiceCall",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "XenDesk",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.0.4",
+    "electron-packager": "^13.1.1",
+    "electron-builder": "^20.39.0"
+  },
+  "dependencies": {
+    "node-notifier": "^5.4.0"
+  },
+  "protocols": {
+    "name": "xenvoice-protocol",
+    "schemes": [
+      "xenvoice"
+    ]
+  },
+  "build": {
+    "appId": "xenvoice.id",
+    "mac": {
+      "category": "your.app.category.type"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+// title font styles
+// .title{    
+//     h1{        
+//         font-size: 1.1rem;
+//         font-weight: 600;
+//     }
+// }
+.header {
+    .nav-link {
+        &:not(.u-name) {
+            font-size: 1.1rem;
+        }
+    }
+    .cart {
+        span {
+            font-size: 10px;
+            font-weight: 600;
+        }
+    }
+}
+
+.sidebar {
+    .nav {
+        .nav-link {
+            font-size: 1rem;
+        }
+    }
+}
+
+.side-panel {
+    .accord-title {
+        .link-warning {
+            font-size: 1rem;
+        }
+    }
+}
+
+.dismis{
+    font-size: 16px;
+}
+
+.title {
+    font-size: 1rem;
+}
+
+.grid-header {
+    .nav-link {
+        font-weight: 600;
+        i {
+            font-size: 12px;
+        }
+    }
+}
+
+// call settings card col styles
+.sub-title {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.card-col {
+    h4 {
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    p {
+        margin-bottom: 0px;
+    }
+}
+
+// form overlay styles
+.select-pad {
+    .form-control {
+        font-size: .7rem;
+    }
+}
