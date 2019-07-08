@@ -1,4 +1,4 @@
-// some changes
+// some changes and commit to dev and master
 const { app, BrowserWindow, Menu, MenuItem } = require('electron');
 // const notifier = require('node-notifier');
 const path = require("path");
